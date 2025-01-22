@@ -8,6 +8,6 @@
         <title>Planner</title>
     </head>
     <body>
-    <?php include("shared/header.html")?>
+    <?php include("shared/header.html");?>
     </body>
 </html>
