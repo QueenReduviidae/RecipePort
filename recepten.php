@@ -8,7 +8,7 @@
         <title>Recepten</title>
     </head>
     <body>
-    <?php include("shared/header.html")?>
+    <?php include("shared/header.html");?>
     <div id="container">
         <table>
             <?php
@@ -17,7 +17,7 @@
                 {
                     echo
                     "
-                    <tr onClick=\"Javascript:window.location.href = '/RecipePort/recept.php?id=".$row['ID']."';\" class='recipeTabelRow'>
+                    <tr onClick=\"Javascript:window.location.href='/RecipePort/recept.php?recipe=".$row['ID']."';\" class='recipeTabelRow'>
                         <td>
                         <h3>
                             ". $row['Naam'] ."
