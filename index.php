@@ -1,4 +1,7 @@
 <!DOCTYPE HTML>
+<?php
+    include("shared/main.functions.php");
+?>
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
