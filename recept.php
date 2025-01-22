@@ -5,7 +5,7 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-        <title>Ingredienten</title>
+        <title>Recept</title>
     </head>
     <body>
     <?php include("shared/header.html")?>
